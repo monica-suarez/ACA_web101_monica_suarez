@@ -1,11 +1,17 @@
+html {
+    display: table;
+    margin: auto;
+}
 body {
      margin: 0 auto;
+     display: table-cell;
+     vertical-align: middle;
  }
 
 #container {
     width: 850px;
-    
     height: 794px;
+    
 }
 
 #header{
