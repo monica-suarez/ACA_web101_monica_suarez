@@ -45,8 +45,9 @@ body {
     padding: 20px;
     text-align: center;
     border: 2px solid whitesmoke;
+    text-decoration: none;
   }
- 
+  
   .has-border {
     border-radius: 25px;
     margin-top:80px;
