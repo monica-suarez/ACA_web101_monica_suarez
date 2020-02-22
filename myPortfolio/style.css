@@ -3,7 +3,7 @@ body {
     background-image: url(myBackground.jpg);
      background-repeat: no-repeat;
     opacity: inherit;
-    background-size: 1600px 1050px;
+    background-size: 1600px 1065px;
     width: 100vw;
     height: 100vh;
       }
@@ -94,13 +94,13 @@ body {
     margin: 3% auto;
   }
  
-  .portfolio-button {
+   .port-button{
     grid-column: 2/3;
     margin: 3% auto;
     width: 40%;
     height: 5%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     border-radius: 20px;
     background: whitesmoke;
     padding: 20px;
@@ -109,7 +109,8 @@ body {
     color: rgba(170, 108, 26, 0.829);
     letter-spacing: 4px;
     font-weight: bold;
-    }
+  text-decoration: none;
+  }
     .has-border{
-    border-radius: 25px;    
-    }
+    border-radius: 25px;
+  }
