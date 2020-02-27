@@ -17,16 +17,22 @@ body {
 #header{
     width: 100%;
     height: 450px;
-    background-image: url("./nasaBackgroud.jpg");
+    background-image: url("nasaBackgroud.jpg");
     background-size: cover;
+    text-align: center;
+}
+.nasa-title{
+    width: 100%;
     text-align: center;
     line-height: 450px;
     font-size: 65pt;
     font-weight: bolder;
     font-family: 'Roboto', sans-serif;
     color: ivory;
+    z-index: 1;
 
 }
+
 #content{
     margin: 0 auto;
     height: 324px;
