@@ -1,3 +1,4 @@
+@media (min-width: 992px){
 body{
    background-color: lavenderblush; 
 }
@@ -86,11 +87,26 @@ header{
     width: 200px;
 }
 
-@media(max-width: 1024px){
-    body{
-        background-color: yellowgreen;
-    }
+}
+@media(max-width: 991px){
     #container{
-        width: 800px;
+        width: 500px;
+        length: 1367px;
+        margin: auto;
     }
+    header{
+        width: 500px;
+        length: 397px;
+        background-color: rgb(51,168,221);
+        flex: auto;
+        justify-content: start;
+        
     }
+    .header-text{
+        color: whitesmoke;
+        text-align: center;
+        font-size: 64px;
+        font-weight: 100;
+        line-height: 150px;
+    }
+}
