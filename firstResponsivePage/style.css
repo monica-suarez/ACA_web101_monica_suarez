@@ -1,0 +1,96 @@
+body{
+   background-color: lavenderblush; 
+}
+#container{
+    width: 1024px;
+    height: 774px;
+    background-color: rgba(231, 229, 229, 0.568);
+    margin: auto;
+}
+header{
+    width: 1024px;
+    height: 387px;
+    background-color: rgb(43,205,192);
+    
+}
+.header-text{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 100;
+    line-height: 387px;
+}
+#content{
+    width: 1024px;
+    height: 387px;
+    background-color: black;
+    margin: 0 auto;
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    
+.title-text{
+    font-size: 42px;
+    font-weight: 100;
+}
+.blue-box{
+    height: 24px;
+    width: 200px;
+    background-color: rgb(51,168,221);
+    margin-top: 75px;
+}
+.i-think{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 115px;
+
+}
+.brain{
+    width: 200px; 
+}
+.orange-box{
+    height: 24px;
+    width: 200px;
+    background-color:rgb(244,103,49);
+    margin-top: 75px;
+    
+}
+.therefore{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+
+}
+.descartes{
+    width: 200px;
+}
+.aqua-box{
+    height: 24px;
+    width: 200px;
+    background-color: rgb(43,205,192);
+    margin-top: 75px;
+}
+.i-soap{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-right: 115px;
+    
+}
+.soap{
+    width: 200px;
+}
+
+@media(max-width: 1024px){
+    body{
+        background-color: yellowgreen;
+    }
+    #container{
+        width: 800px;
+    }
+    }
