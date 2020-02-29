@@ -11,7 +11,7 @@ body{
 header{
     width: 1024px;
     height: 387px;
-    background-color: rgb(43,205,192);
+    background-color: rgba(43, 205, 192, 0.596);
     
 }
 .header-text{
@@ -91,22 +91,77 @@ header{
 @media(max-width: 991px){
     #container{
         width: 500px;
-        length: 1367px;
+        height: 1367px;
         margin: auto;
     }
     header{
         width: 500px;
-        length: 397px;
+        height: 337px;
         background-color: rgb(51,168,221);
-        flex: auto;
-        justify-content: start;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         
-    }
+        }
     .header-text{
         color: whitesmoke;
-        text-align: center;
-        font-size: 64px;
+        font-size: 60px;
         font-weight: 100;
-        line-height: 150px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 100px;
+       
+        }
+    #content{
+      background-color: rgb(247,245,246);
+      display: flex;  
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 135px;
+      padding-right: 135px;
+      text-align: center;
+      align-content: center;
+    }
+    .blue-box{
+        height: 30px;
+        width: 200px;
+        background-color: rgb(51,168,221);
+        margin-top: 40px;
+        margin-bottom: 10px;
+        padding-left: 30px;
+        
+    }
+    .title-text{
+        font-size: 40px;
+    }
+    .i-think{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .orange-box{
+        height: 30px;
+        width: 200px;
+        background-color:rgb(244,103,49);
+        margin-top: 40px;
+        margin-bottom: 10px;
+        padding-left: 30px;
+    }
+    .therefore{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .aqua-box{
+        height: 30px;
+        width: 200px;
+        background-color: rgba(43, 205, 192, 0.596);
+        margin-top: 40px;
+        margin-bottom: 10px;
+        padding-left: 30px;
+    }
+    .i-soap{
+        font-size: 16px;
+        font-weight: 500;
+        padding-bottom: 30px;
     }
 }
