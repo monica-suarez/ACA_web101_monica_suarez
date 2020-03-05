@@ -48,4 +48,7 @@ body{
     background-color: black;
     color: whitesmoke;
     margin-top: 15px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none !important;
 }
