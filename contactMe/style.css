@@ -28,27 +28,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    padding-left: 450px;
+    padding-left: 400px;
     font-size: 32px;
 }
-.email-input{
-    width: 375px;
-    height: 30px;
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-.message-input{
-    width: 375px;
-    height: 200px;
-    font-size: 18px;
-}
-.send-button{
-    width: 80px;
-    height: 35px;
-    background-color: black;
-    color: whitesmoke;
-    margin-top: 15px;
-    font-size: 24px;
-    text-align: center;
-    text-decoration: none !important;
+.linked-in{
+    font-size: 46px;
+    text-decoration: none;
+    font-weight: bolder;
+    
 }

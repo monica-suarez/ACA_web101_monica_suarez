@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(172, 255, 47, 0.486);
+}
+.header-text{
+    height: 100px;
+    width: 500px;
+    background-color: rgb(76, 122, 17);
+    color: indianred;
+    font-size: 92px;
+    margin: 0 auto;
+    text-align: center;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 100px;
+    font-size: 48px;
+    margin-top: 75px;
+}
+#email{
+    line-height: normal;
+    width: 550px;
+    height: 40px;
+    font-size: 24px;
+}
