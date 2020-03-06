@@ -18,28 +18,28 @@
             <label for="email">Email</label>
             <input type="email" name="email" id="email" required placeholder="Email required">
         </div>
-    </form>
-    <form>
         <div class="comments">
              <label for="comments">Leave A Comment</label>
              <textarea rows="11" minlength="20" maxlength="500" required="required" type="comments" id="comments" placeholder="Comments"></textarea>
         </div>
-    </form >
-    <fieldset class="hear-about">
-        <label id="hear-about" for="hear-about">How Did You Hear About Me</label><br>      
-        <input type="checkbox" name="hear-about" value="Classmate">Classmate<br>      
-        <input type="checkbox" name="hear-about" value="Resume">Resume Submission<br>      
-        <input type="checkbox" name="hear-about" value="LinkedIn">LinkedIn<br>
-        <input type="checkbox" name="hear-about" value="Coding">Coding Academy Rec<br>      
-        <br>      
-        <input type="submit" value="Submit now" />      
-    </fieldset>
-    <form>
-         <fieldset class="contact">
+        <fieldset class="hear-about">
+            <label id="hear-about" for="hear-about">How Did You Hear About Me</label><br>      
+            <input type="checkbox" name="hear-about" value="Classmate">Classmate<br>      
+            <input type="checkbox" name="hear-about" value="Resume">Resume Submission<br>      
+            <input type="checkbox" name="hear-about" value="LinkedIn">LinkedIn<br>
+            <input type="checkbox" name="hear-about" value="Coding">Coding Academy Rec<br>                
+        </fieldset>
+        <fieldset class="contact">
             <label for="contact-back">Would You Like A Contact Back</label><br>
-            <input class ="buttons" type="radio" name="contact-back" value="Yes">Yes<br>
-            <input class ="buttons" type="radio" name="contact-back" value="No">No<br>
-        </fieldset>        
+            <input id="yes" class="buttons" type="radio" name="contact-back" value="Yes"><label for"yes">Yes</label><br>
+            <input id="no" class="buttons" type="radio" name="contact-back" value="No"><label for="no">No</label>
+        </fieldset> 
+        <div class="birthdate">
+            <label for="date">Enter Your Birthday For An Optional Birthday Wish!</label>
+            <input style="font-size: 24px;" type="date" name="date" id="date" min="1900-01-01">
+          </div>
+          <button class="end-buttons" type="reset">Reset</button><br>
+          <button class="end-buttons" type="submit">Submit</button>
     </form>
 </body>
 </html>
