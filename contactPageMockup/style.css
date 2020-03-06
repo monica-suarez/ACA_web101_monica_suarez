@@ -41,14 +41,8 @@ body{
     resize: none;
     font-size: 24px;
 }
-.hear-about{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    margin-left: 100px;
-    font-size: 36px;
-    margin-bottom: 75px;
-}
+
+
 .hear-about{
     display: flex;
     flex-direction: column;
@@ -59,4 +53,19 @@ body{
     width: 500px;
     background-color: indianred;
     color:rgb(255,255,255)
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 100px;
+    font-size: 24px;
+    margin-bottom: 75px;
+    width: 500px;
+    background-color: indianred;
+    color:rgb(255,255,255);
+}
+.buttons{
+    float: right;
+    text-align: right;
 }
