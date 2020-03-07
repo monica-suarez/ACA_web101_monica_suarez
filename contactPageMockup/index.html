@@ -24,15 +24,25 @@
         </div>
         <fieldset class="hear-about">
             <label id="hear-about" for="hear-about">How Did You Hear About Me</label><br>      
-            <input type="checkbox" name="hear-about" value="Classmate">Classmate<br>      
-            <input type="checkbox" name="hear-about" value="Resume">Resume Submission<br>      
-            <input type="checkbox" name="hear-about" value="LinkedIn">LinkedIn<br>
-            <input type="checkbox" name="hear-about" value="Coding">Coding Academy Rec<br>                
+        <div class="checkbox">
+            <input class="space" type="checkbox" name="hear-about" value="Classmate">      
+            <label for="Classmate">Classmate</label><br>
+            <input class="space" type="checkbox" name="hear-about" value="Resume">
+            <label for="Resume Submission">Resume Submission</label><br>     
+            <input class="space" type="checkbox" name="hear-about" value="LinkedIn">
+            <label for="LinkedIn">LinkedIn</label><br>
+            <input id="space" type="checkbox" name="hear-about" value="Coding">
+            <label for="Coding Academy Rec">Coding Academy Rec</label><br>                
+        </div>
         </fieldset>
         <fieldset class="contact">
             <label for="contact-back">Would You Like A Contact Back</label><br>
-            <input id="yes" class="buttons" type="radio" name="contact-back" value="Yes"><label for"yes">Yes</label><br>
-            <input id="no" class="buttons" type="radio" name="contact-back" value="No"><label for="no">No</label>
+            <div class="buttons">
+            <input id="yes" type="radio" name="contact-back" value="Yes">
+            <label for="yes">Yes</label><br>
+            <input id="no" type="radio" name="contact-back" value="No">
+            <label for="no">No</label>
+            </div>    
         </fieldset> 
         <div class="birthdate">
             <label for="date">Enter Your Birthday For An Optional Birthday Wish!</label>

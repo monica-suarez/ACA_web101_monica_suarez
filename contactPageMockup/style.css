@@ -54,6 +54,17 @@ body{
     background-color: indianred;
     color:rgb(255,255,255);
 }
+.checkbox{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+.space{
+    margin-bottom: 30px;
+}
+#space{
+    margin-bottom: 10px;
+}
 .contact{
     display: flex;
     flex-direction: column;
@@ -68,7 +79,7 @@ body{
 
 .buttons{
     display: inline-block;
-    text-align: right;
+    text-align: left;
     vertical-align: middle;
     
 }
@@ -81,6 +92,12 @@ body{
     margin-top: 75px;
     color: indianred;
     width: 600px;
+}
+#yes{
+    margin-bottom: 30px;
+}
+#no{
+    margin-bottom: 10px;
 }
 .end-buttons{
     display: inline-block;
