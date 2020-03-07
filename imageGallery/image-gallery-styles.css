@@ -1,4 +1,4 @@
-.overlay{
+/* .overlay{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -10,17 +10,17 @@
     background-color: black;
     transition: .5s ease;
     z-index: 1;
-}
-.container:hover .overlay{
-    opacity: 0.5;
-}
-.overlay-text{
+} */
+/* .container:hover .overlay{
+    opacity: 0.5; */
+/* } */
+/* .overlay-text{
     display: flex;
     justify-content: center;
     text-align: center;
     color: ivory;
-    font-size: 48px;
-}
+    font-size: 48px; */
+/* } */
 @media (max-width:650px){
 .header{
     line-height: 100px;
