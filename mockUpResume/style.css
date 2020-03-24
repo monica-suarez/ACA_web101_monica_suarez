@@ -16,6 +16,18 @@ html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-ser
 
 .clear {clear: both;}
 
+#mobile-button{
+	background-color: crimson;
+	color: ivory;
+	width: 80px;
+	height: 20px;
+	font-size: 16px;
+	text-align: center;
+}
+#mobile-number{
+	display: none;
+}
+
 p {
 	font-size: 1em;
 	line-height: 1.4em;
