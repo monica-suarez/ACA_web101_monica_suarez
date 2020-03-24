@@ -27,7 +27,14 @@ html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-ser
 #mobile-number{
 	display: none;
 }
-
+#cv-name{
+	background-color: crimson;
+	color: ivory;
+	text-align: center;
+}
+#peter{
+	display: none;
+}
 p {
 	font-size: 1em;
 	line-height: 1.4em;
